@@ -13,33 +13,17 @@ if (! defined('ABSPATH')) {
      * Vars
      */
 
-    /*
-     *This is the only way to get it working on all post types,
-     * though _builtin is set to false, it actually appears on all
-     * post types (buitin and not builtin)
-     */
-    $args               = array( 'public' => true, '_builtin' => false );
-    $set_post_types     = get_post_types($args);
 
-    // exclude post types
-    $exclude_post_types =   isset(get_option('_booster_sweeper_options')[ 'exclude_settings_post_types' ])
-                        ?         get_option('_booster_sweeper_options')[ 'exclude_settings_post_types' ] : '';
+    // add additional post types
+    $include_post_types = isset(get_option('_booster_sweeper_options')[ 'add_post_types' ])
+                        ?       get_option('_booster_sweeper_options')[ 'add_post_types' ] : '';
 
-    $exclude_post_types = ! empty($exclude_post_types) ? explode(' ', $exclude_post_types) : array();
-    $exclude_post_types = array_map('sanitize_title', $exclude_post_types);
-    $_escaped_excluded_post_types = array_map('esc_html', $exclude_post_types);
+    $include_post_types          = ! empty($include_post_types) ? explode(' ', $include_post_types) : array();
+    $include_post_types          = array_map('sanitize_title', $include_post_types);
+    $_escaped_inluded_post_types = array_map('esc_html', $include_post_types);
 
-    // trim the values of $exclude_post_types
-    $_escaped_excluded_post_types = array();
-
-foreach ( $exclude_post_types as $key ) {
-    // we have to escape it here
-    $_escaped_excluded_post_types[] = esc_html(trim($key));
-}
-
-
-    $no_options_frontend    = esc_html__('No options available -> Page has to be visited at least once on the front side to collect the resources.', 'booster-sweeper');
-    $chosen_placeholder_res = esc_html__('Select some options here...', 'booster-sweeper');
+    $no_options_frontend         = esc_html__('No options available -> Page has to be visited at least once on the front side to collect the resources.', 'booster-sweeper');
+    $chosen_placeholder_res      = esc_html__('Select some options here...', 'booster-sweeper');
 
     // set frontend tab
     $frontend_tab = array(
@@ -124,8 +108,7 @@ foreach ( $exclude_post_types as $key ) {
         CSF::createMetabox(
             '_mb_booster_sweeper', array(
             'title'              => 'Booster Sweeper',
-            'post_type'          => $set_post_types,
-            'exclude_post_types' => $_escaped_excluded_post_types,
+            'post_type'          =>  array_merge(array( 'page' ), $_escaped_inluded_post_types),
             'context'            => 'side',
             )
         );

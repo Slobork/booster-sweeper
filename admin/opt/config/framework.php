@@ -34,9 +34,8 @@ if (! defined('ABSPATH')) {
             'output_css'      => false,
             'enqueue_webfont' => false,
 
-        ) 
+        )
     );
-
 
 
     /*
