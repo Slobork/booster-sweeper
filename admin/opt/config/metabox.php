@@ -20,7 +20,7 @@ if (! defined('ABSPATH')) {
 
     $include_post_types          = ! empty($include_post_types) ? explode(' ', $include_post_types) : array();
     $include_post_types          = array_map('sanitize_title', $include_post_types);
-    $_escaped_inluded_post_types = array_map('esc_html', $include_post_types);
+    $_escaped_inlcuded_post_types= array_map('esc_html', $include_post_types);
 
     $no_options_frontend         = esc_html__('No options available -> Page has to be visited at least once on the front side to collect the resources.', 'booster-sweeper');
     $chosen_placeholder_res      = esc_html__('Select some options here...', 'booster-sweeper');
@@ -108,7 +108,7 @@ if (! defined('ABSPATH')) {
         CSF::createMetabox(
             '_mb_booster_sweeper', array(
             'title'              => 'Booster Sweeper',
-            'post_type'          =>  array_merge(array( 'post', 'page' ), $_escaped_inluded_post_types),
+            'post_type'          =>  array_merge(array( 'post', 'page' ), $_escaped_inlcuded_post_types),
             'context'            => 'side',
             )
         );
