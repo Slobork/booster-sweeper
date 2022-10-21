@@ -27,7 +27,7 @@ if (! defined('ABSPATH')) {
 
     // set frontend tab
     $frontend_tab = array(
-        'title'     => esc_html__('Front end', 'booster-sweeper'),
+        'title'     => esc_html__('Front', 'booster-sweeper'),
         'icon'      => 'fas fa-forward',
         'fields'    => array(
             array(
@@ -90,7 +90,7 @@ if (! defined('ABSPATH')) {
 
     // Gather the fields for backend tab
     $backend_tab = array(
-        'title'   => esc_html__('Back end', 'booster-sweeper'),
+        'title'   => esc_html__('Back', 'booster-sweeper'),
         'icon'    => 'fas fa-backward',
         'fields'  => $backend_tab_fields,
     );
@@ -125,7 +125,7 @@ if (! defined('ABSPATH')) {
                     array(
                         'id'        => 'tabbed_options',
                         'type'      => 'tabbed',
-                        'help'      => esc_html__('Switch the tabs to set all the options',    'booster-sweeper'),
+                        'help'      => esc_html__('Switch the tabs to set all the options for Front end and Back end of the site.', 'booster-sweeper'),
                         'desc'      => esc_html__('Frontend options are updated on the actual page load, i.e. page has to be visited for options to be updated.',    'booster-sweeper'),
                         'tabs'      => array(
                             $frontend_tab,
