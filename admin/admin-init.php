@@ -47,7 +47,7 @@ if (! function_exists('booster_sweeper_admin_scripts') ) {
         $current_screen = get_current_screen()->base;
     
         // Load only on Booster Sweeper settings page.
-        if ($current_screen == 'toplevel_page_booster-sweeper-settings') {
+        if ($current_screen === 'toplevel_page_booster-sweeper-settings') {
                 
             wp_enqueue_style('booster-sweeper-adminizr', plugin_dir_url(__DIR__) .'library/admin/adminizr.css', array(), $plugin_version);
             wp_enqueue_script('booster-sweeper-adminizr', plugin_dir_url(__DIR__) .'library/admin/adminizr.js', array( 'jquery' ), $plugin_version, true);
