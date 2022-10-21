@@ -21,7 +21,7 @@ if (class_exists('CSF') ) {
     // Disable CSF welcome page
     add_filter('csf_welcome_page', '__return_false');
 
-    if (class_exists('Booster__Sweeper__Pro') ) {
+    if (class_exists('Booster_Sweeper_Pro') ) {
         include_once WP_PLUGIN_DIR .'/booster-sweeper-pro/admin/opt/config/callbacks.php';
         include_once WP_PLUGIN_DIR .'/booster-sweeper-pro/admin/opt/config/framework.php';
         include_once WP_PLUGIN_DIR .'/booster-sweeper-pro/admin/opt/config/metabox.php';
@@ -43,7 +43,7 @@ if (! function_exists('booster_sweeper_admin_scripts') ) {
     function booster_sweeper_admin_scripts() 
     {
 
-        $plugin_version = Booster__Sweeper::version();
+        $plugin_version = Booster_Sweeper::version();
         $current_screen = get_current_screen()->base;
     
         // Load only on Booster Sweeper settings page.

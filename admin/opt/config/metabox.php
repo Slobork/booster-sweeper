@@ -59,7 +59,7 @@ if (! defined('ABSPATH')) {
      */
     if (function_exists('booster_sweeper_metabox_settings_pro') ) {
 
-        $get_license = class_exists('Booster__Sweeper__Pro') && Booster__Sweeper__Pro::getLicense() !== '' ? true : false;
+        $get_license = class_exists('Booster_Sweeper_Pro') && Booster_Sweeper_Pro::getLicense() !== '' ? true : false;
 
         if ($get_license === true) {
 

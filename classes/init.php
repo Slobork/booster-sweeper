@@ -9,15 +9,15 @@ if (! defined('ABSPATH')) {
 }
 
 
-if (! class_exists('Booster__Sweeper') ) {
+if (! class_exists('Booster_Sweeper') ) {
 
-    add_action('init', array( 'Booster__Sweeper', 'textdomain' ));
+    add_action('init', array( 'Booster_Sweeper', 'textdomain' ));
 
     /**
      * Plugin's init class.
      */
     // phpcs:ignore
-    class Booster__Sweeper
+    class Booster_Sweeper
     {
 
         /**
