@@ -108,7 +108,7 @@ if (! defined('ABSPATH')) {
         CSF::createMetabox(
             '_mb_booster_sweeper', array(
             'title'              => 'Booster Sweeper',
-            'post_type'          =>  array_merge(array( 'page' ), $_escaped_inluded_post_types),
+            'post_type'          =>  array_merge(array( 'post', 'page' ), $_escaped_inluded_post_types),
             'context'            => 'side',
             )
         );
