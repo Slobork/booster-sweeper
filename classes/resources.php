@@ -8,28 +8,28 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-if (! class_exists('Booster__Sweeper__Resources') ) {
+if (! class_exists('Booster_Sweeper_Resources') ) {
 
     if (is_admin() ) {
 
-        add_action('admin_print_styles',         [ 'Booster__Sweeper__Resources', 'find_styles' ], PHP_INT_MAX);
-        add_action('admin_print_footer_scripts', [ 'Booster__Sweeper__Resources', 'find_scripts' ], PHP_INT_MAX);
+        add_action('admin_print_styles',         [ 'Booster_Sweeper_Resources', 'find_styles' ], PHP_INT_MAX);
+        add_action('admin_print_footer_scripts', [ 'Booster_Sweeper_Resources', 'find_scripts' ], PHP_INT_MAX);
 
         // ...and on front side
     } else if (! is_admin() ) {
 
         // load has to be lower in order than for the resource finding (either with priority var or by hook's order)
-        add_action('wp_print_styles',           [ 'Booster__Sweeper__Resources', 'dequeue_frontend_single' ], 1);
-        add_action('wp_print_footer_scripts',   [ 'Booster__Sweeper__Resources', 'dequeue_frontend_single' ], 1); // priority has to be especially low in order to pick (dequeue) the oddly added scripts, i.e. before they are printed
+        add_action('wp_print_styles',           [ 'Booster_Sweeper_Resources', 'dequeue_frontend_single' ], 1);
+        add_action('wp_print_footer_scripts',   [ 'Booster_Sweeper_Resources', 'dequeue_frontend_single' ], 1); // priority has to be especially low in order to pick (dequeue) the oddly added scripts, i.e. before they are printed
 
         // for late discovery use wp_print_footer_scripts instead of wp_print_styles:
-        add_action('wp_print_footer_scripts',   [ 'Booster__Sweeper__Resources', 'find_styles' ], PHP_INT_MAX);
-        add_action('wp_print_footer_scripts',   [ 'Booster__Sweeper__Resources', 'find_scripts' ], PHP_INT_MAX);
+        add_action('wp_print_footer_scripts',   [ 'Booster_Sweeper_Resources', 'find_styles' ], PHP_INT_MAX);
+        add_action('wp_print_footer_scripts',   [ 'Booster_Sweeper_Resources', 'find_scripts' ], PHP_INT_MAX);
 
     }
 
     // phpcs:ignore
-    class Booster__Sweeper__Resources
+    class Booster_Sweeper_Resources
     {
 
         /**

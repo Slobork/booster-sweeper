@@ -29,7 +29,7 @@ if (! function_exists('booster_sweeper_list_single_frontend_styles') ) {
     // phpcs:ignore
     function booster_sweeper_list_single_frontend_styles()
     {
-        return Booster__Sweeper__Resources::prepare_resources_list_single()[ 'frontend_styles' ];
+        return Booster_Sweeper_Resources::prepare_resources_list_single()[ 'frontend_styles' ];
     }
 
 }
@@ -45,7 +45,7 @@ if (! function_exists('booster_sweeper_list_single_frontend_scripts') ) {
     // phpcs:ignore
     function booster_sweeper_list_single_frontend_scripts()
     {
-        return Booster__Sweeper__Resources::prepare_resources_list_single()[ 'frontend_scripts' ];
+        return Booster_Sweeper_Resources::prepare_resources_list_single()[ 'frontend_scripts' ];
     }
 
 }
