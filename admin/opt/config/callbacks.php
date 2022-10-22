@@ -62,7 +62,7 @@ if (! function_exists('booster_sweeper_upgrade_call') ) {
     // phpcs:ignore
     function booster_sweeper_upgrade_call()
     {
-        echo '<div style="padding: 0 10px; border-left: 4px solid #339fd4;">' .__('Upgrade to ', 'booster-sweeper') .'<a href="https://maxpressy.com/products/booster-sweeper-pro/" target="_blank">' .__('Pro version', 'booster-sweeper') .'</a> to gain access to premium features.</div>';
+        echo '<div style="padding: 0 10px; border-left: 4px solid #339fd4;">' .__('Upgrade to ', 'booster-sweeper') .'<a href="https://maxpressy.com/booster-sweeper/asset-cleanup-wordpress-plugin-manager/?mtm_campaign=pluginAdminUpgrade&mtm_kwd=boostersweeper" target="_blank">' .__('Pro version', 'booster-sweeper') .'</a> to gain access to premium features.</div>';
     }
 
 }
