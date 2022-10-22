@@ -52,10 +52,10 @@ if (! defined('ABSPATH')) {
 
     // Not multisite installation or is multisite and main site
     if (! is_multisite() || (is_multisite() && is_main_site()) ) {
-        
+
         /*
          * Since the "Unistall settings" is the only option under the "Other" heading
-         * $settings_other_heading is also conditionally set based on the 
+         * $settings_other_heading is also conditionally set based on the
          * multisite environment
          */
         $settings_other_heading = array(
@@ -83,15 +83,15 @@ if (! defined('ABSPATH')) {
      * Differentiate options availabe on the basic & the pro version.
      */
     if (function_exists('booster_sweeper_framework_settings_pro') ) {
-        
+
         $get_license = class_exists('Booster_Sweeper_Pro') && Booster_Sweeper_Pro::getLicense() !== '' ? true : false;
-        
+
         if ($get_license === true) {
 
             $unload_options  = booster_sweeper_framework_settings_pro()[ 'unload_options' ];
             $unload_backend  = booster_sweeper_framework_settings_pro()[ 'unload_backend' ];
             $unload_frontend = booster_sweeper_framework_settings_pro()[ 'unload_frontend' ];
-                
+
             // if license not active
         } else {
 

@@ -88,4 +88,3 @@ if (! function_exists('booster_sweeper_license_call') ) {
     }
 
 }
-
