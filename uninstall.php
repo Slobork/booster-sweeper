@@ -9,15 +9,15 @@ if (! defined('ABSPATH')) {
     exit;
 }
 
-    // if uninstall.php is not called by WordPress, die
+// if uninstall.php is not called by WordPress, die
 if (! defined('WP_UNINSTALL_PLUGIN') ) {
     exit();
 }
 
 
-    // uninstall if user prompts it
-    $uninstall_setting  =   isset(get_option('_booster_sweeper_options')[ 'uninstall_setting' ])
-                        ?         get_option('_booster_sweeper_options')[ 'uninstall_setting' ] : '';
+// uninstall if user prompts it
+$uninstall_setting = isset(get_option('_booster_sweeper_options')[ 'uninstall_setting' ])
+                   ?       get_option('_booster_sweeper_options')[ 'uninstall_setting' ] : '';
 
 if (! empty($uninstall_setting) ) {
 

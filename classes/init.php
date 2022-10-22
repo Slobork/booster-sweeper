@@ -31,7 +31,7 @@ if (! class_exists('Booster_Sweeper') ) {
         public static function version()
         {
 
-            $plugin_version = '0.0.2';
+            $plugin_version = '1.0.0';
             return $plugin_version;
 
         }
@@ -39,7 +39,7 @@ if (! class_exists('Booster_Sweeper') ) {
         /**
          * Load plugin's textdomain.
          * 
-         * @return none Hooking a load_plugin_textdomain().
+         * @return null Hooking a load_plugin_textdomain().
          */
         public static function textdomain()
         {
