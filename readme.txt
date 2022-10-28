@@ -42,7 +42,7 @@ After activating the plugin, in your WordPress Dashboard find the section "MaxBo
 
 
 == Changelog ==
-= 1.0.0 - 2022-10-22 =
+= 1.0.0 - 2022-10-28 =
 Initial release
 
 
