@@ -1,4 +1,4 @@
-=== Booster Sweeper: WordPress Assets Cleanup - Free Version ===
+=== Booster Sweeper: WordPress Asset Cleanup - Free Version ===
 
 Contributors: MaxPressy
 Tags: speed, performance, pagespeed, dequeue, seo, assets
@@ -14,6 +14,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Booster Sweeper helps you to optimize the Website speed further over the common caching and code minification plugins. <a href="https://maxpressy.com/booster-sweeper/asset-cleanup-wordpress-plugin-manager/?mtm_campaign=wpPluginPage&mtm_kwd=boostersweeper&mtm_placement=top" target="_blank">Booster Sweeper</a> allows you to dequeue assets, i.e. unload the unused CSS or JavaScript files. These are the files that aren't necessary for certain page.
 
 You see, with the most of the WordPress plugins or even themes, most of the assets are loaded over the whole site, while usually you do not need those resources for certain pages. By unloading those files that aren't necessary you are reducing the overall size of the page and at the same time decreasing the number of http requests. This results in a better performance for the pages and, even if other things are configured well, in a better SEO score for your site.
+
+The most obvious using scenario would be when you have a contact form only on a Contact page. Another example is when you have an e-commerce plugin, e.g. Woocommerce which loads its files over the whole site, while you may esencially need those files just on product pages. In both these cases, you can stop these assets to appear on the pages that it's not necessary to have them. Of course, you can imagine that you can do the same with other custom post types or plugins that are producing the same issue.
 
 == How Booster Sweeper can be beneficial ==
 <ul>
