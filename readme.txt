@@ -1,4 +1,4 @@
-=== Booster Sweeper: WordPress Asset Cleanup - Free Version ===
+=== Booster Sweeper: WordPress Asset Cleanup ===
 
 Contributors: MaxPressy
 Tags: speed, performance, pagespeed, dequeue, seo, assets
@@ -15,7 +15,7 @@ Booster Sweeper helps you to optimize the Website speed further over the common 
 
 You see, with the most of the WordPress plugins or even themes, most of the assets are loaded over the whole site, while usually you do not need those resources for certain pages. By unloading those files that aren't necessary you are reducing the overall size of the page and at the same time decreasing the number of http requests. This results in a better performance for the pages and, even if other things are configured well, in a better SEO score for your site.
 
-The most obvious using scenario would be when you have a contact form only on a Contact page. Another example is when you have an e-commerce plugin, e.g. Woocommerce which loads its files over the whole site, while you may esencially need those files just on product pages. In both these cases, you can stop these assets to appear on the pages that it's not necessary to have them. Of course, you can imagine that you can do the same with other custom post types or plugins that are producing the same issue.
+The most obvious using scenario would be when you have a contact form only on a Contact page. Another example is when you have an e-commerce plugin, e.g. Woocommerce, which loads its files over the whole site, while you may esencially need those files just on product pages. In both these cases, with Booster Sweeper you can stop these assets to appear on the pages that it's not necessary to have them. Of course, you can imagine that you can do the same with other custom post types or plugins that are producing the same issue.
 
 == How Booster Sweeper can be beneficial ==
 <ul>
@@ -25,20 +25,20 @@ The most obvious using scenario would be when you have a contact form only on a 
  <li>By reducing the pages size, save in CDN costs</li>
 
 == Booster Sweeper is simple to use ==
-On each page or post of your WordPress site, from the sidebar settings, you'll be able to notice a Booster Sweeper section. Here, our plugin is automatically detecting the assets that are loaded on the page. CSS and JS files are split in separate sections and when you select a file it will be prevented from loading on the particular page.
+On each page or post of your WordPress site, from the sidebar settings, you'll be able to notice a Booster Sweeper section. Here, our plugin is automatically detecting the assets that are loaded on the page. CSS and JS files are split in separate sections and when you select a file name, it will be prevented from loading on that page.
 
 == Go Premium ==
 Premium Version of Booster Sweeper allows you to:
 <ul>
  <li>Dequeue assets for bulk pages, i.e. from the plugin global settings. Instead of doing it individually per page/post, you can select the pages and posts for which you wish certain CSS and JavaScript files that should be prevented from loading.</li>
- <li>Disable the meta box section per post, so everything is managed from the global settings (bypass confusion)</li>
+ <li>Disable the Booster Sweeper's meta box section per post and page, so everything is managed from the global settings (bypass confusion)</li>
 </ul>
 
 But that's not all, Pro version gives you ability to control the appearance of the assets based on many conditions:
 <ul>
- <li>Post types, e.g. Woocommerce</li>
+ <li>Post types, e.g. Woocommerce's products</li>
  <li>Archives, i.e. categories, tags or even custom post types specific archive</li>
- <li>Specific pages, like Media files, search pages, 404</li>
+ <li>Specific pages, like media files, search pages, 404</li>
  <li>By RegEx</li>
 </ul>
 
@@ -56,7 +56,7 @@ From your WordPress dashboard, navigate to the Plugins -> Add New, then search f
 Alternatively, install Booster Sweeper by uploading the files manually to your server. Download the plugin here from wordpress.org, upload the files to the plugin directiory of your WordPress installation. Go to the admin dashboard of your site, now. Navigate to the Plugins section and activate Booster Sweeper.
 
 = Usage =
-After activating the plugin, in your WordPress Dashboard find the section "Booster Sweeper". There you can set its default settings.
+After activating the plugin, in your WordPress Dashboard find the section "Booster Sweeper". There you can set its default settings. Further, while editing each post or page you can disable assets for that page.
 
 
 == Screenshots ==
