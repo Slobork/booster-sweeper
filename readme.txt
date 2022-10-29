@@ -23,6 +23,7 @@ The most obvious using scenario would be when you have a contact form only on a 
  <li>Further get better SEO foundation</li>
  <li>Bypass loosing customers due to the slow loading Website</li>
  <li>By reducing the pages size, save in CDN costs</li>
+<ul>
 
 == Booster Sweeper is simple to use ==
 On each page or post of your WordPress site, from the sidebar settings, you'll be able to notice a Booster Sweeper section. Here, our plugin is automatically detecting the assets that are loaded on the page. CSS and JS files are split in separate sections and when you select a file name, it will be prevented from loading on that page.
