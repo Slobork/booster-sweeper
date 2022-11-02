@@ -34,12 +34,22 @@ if (! class_exists('Booster_Sweeper_Resources') ) {
 
         /**
          * Dequeue for frontend (single post/page).
-         * 
+         *
          * Further, updating the post meta with discovered value.
          */
-         // phpcs:ignore
+        // phpcs:ignore
         public static function dequeue_frontend_single()
         {
+
+            /*
+             * @since 1.0.1
+             * is_singular() must be checked, otherwise when a post has been affected
+             * by BS dequeuing, if it appears as a first post on the archive pages
+             * it also disturbs the scripts/styles on that archive page.
+             */
+            if (! is_singular() ) {
+                return;
+            }
 
             $post_id      = get_the_ID();
             $bs           = get_post_meta($post_id, '_mb_booster_sweeper', true);

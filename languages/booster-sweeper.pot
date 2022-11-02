@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Booster Sweeper 1.0\n"
 "Report-Msgid-Bugs-To: https://foxnet-themes.fi/contact/\n"
-"POT-Creation-Date: 2022-08-22 20:15+0200\n"
+"POT-Creation-Date: 2022-11-02 13:29+0100\n"
 "PO-Revision-Date: 2017-05-26 21:49+0200\n"
 "Last-Translator: Sloba <sloooba@yahoo.com>\n"
 "Language-Team: maxPressy\n"
@@ -117,38 +117,38 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:599
+#: admin/codestar-framework/classes/setup.class.php:602
 msgid "Are you sure?"
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:600
+#: admin/codestar-framework/classes/setup.class.php:603
 #, php-format
 msgid "Please enter %s or more characters"
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:601
+#: admin/codestar-framework/classes/setup.class.php:604
 msgid "Searching..."
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:602
+#: admin/codestar-framework/classes/setup.class.php:605
 msgid "No results found."
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:703
+#: admin/codestar-framework/classes/setup.class.php:706
 msgid "Oops! Not allowed."
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:771
-#: admin/codestar-framework/classes/setup.class.php:775
+#: admin/codestar-framework/classes/setup.class.php:774
+#: admin/codestar-framework/classes/setup.class.php:778
 msgid "Field not found!"
 msgstr ""
 
-#: admin/codestar-framework/classes/shortcode-options.class.php:253
+#: admin/codestar-framework/classes/shortcode-options.class.php:255
 #: admin/codestar-framework/fields/group/group.php:23
 msgid "Add New"
 msgstr ""
 
-#: admin/codestar-framework/classes/shortcode-options.class.php:290
+#: admin/codestar-framework/classes/shortcode-options.class.php:292
 #: admin/codestar-framework/functions/actions.php:16
 #: admin/codestar-framework/functions/actions.php:68
 #: admin/codestar-framework/functions/actions.php:106
@@ -724,201 +724,195 @@ msgstr ""
 msgid "Please enter a valid URL."
 msgstr ""
 
-#: admin/opt/config/framework.php:15
-msgid " settings"
-msgstr ""
-
-#: admin/opt/config/framework.php:38
+#: admin/opt/config/callbacks.php:65
 msgid "Upgrade to "
 msgstr ""
 
-#: admin/opt/config/framework.php:38
+#: admin/opt/config/callbacks.php:65
 msgid "Pro version"
 msgstr ""
 
-#: admin/opt/config/framework.php:55
+#: admin/opt/config/callbacks.php:85
+msgid "here"
+msgstr ""
+
+#: admin/opt/config/framework.php:63
 msgid "Other"
 msgstr ""
 
-#: admin/opt/config/framework.php:61
+#: admin/opt/config/framework.php:69
 msgid "Uninstall settings if plugin is deleted"
 msgstr ""
 
-#: admin/opt/config/framework.php:62
+#: admin/opt/config/framework.php:70
 msgid ""
 "If this is checked, all Booster Sweeper seetings will be "
 "deleted when the plugin is removed, otherwise the settings "
 "will be preserved."
 msgstr ""
 
-#: admin/opt/config/framework.php:86
-msgid "Upgrade to pro version!"
-msgstr ""
-
-#: admin/opt/config/framework.php:113
+#: admin/opt/config/framework.php:138
 msgid "General"
 msgstr ""
 
-#: admin/opt/config/framework.php:119
+#: admin/opt/config/framework.php:143
 msgid "Clean HTML tags from the <head>"
 msgstr ""
 
-#: admin/opt/config/framework.php:123
+#: admin/opt/config/framework.php:146
 msgid "Remove \"version generator\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:124
+#: admin/opt/config/framework.php:147
 msgid ""
 "It removes the meta tag stating the version of WordPress "
 "your site is using"
 msgstr ""
 
-#: admin/opt/config/framework.php:129
+#: admin/opt/config/framework.php:152
 msgid "Remove \"RSD\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:130
+#: admin/opt/config/framework.php:153
 msgid ""
 "Really Simple Discovery (RSD) is an XML format that "
 "enables other software to communicate to the blog."
 msgstr ""
 
-#: admin/opt/config/framework.php:135
+#: admin/opt/config/framework.php:158
 msgid "Remove \"WLW\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:136
+#: admin/opt/config/framework.php:159
 msgid ""
 "Windows Live Writer is the desktop application that can be "
 "remotely connected to your blog."
 msgstr ""
 
-#: admin/opt/config/framework.php:141
+#: admin/opt/config/framework.php:164
 msgid "Remove \"shortlink\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:142
+#: admin/opt/config/framework.php:165
 msgid "This tag marks the short link of the post/page"
 msgstr ""
 
-#: admin/opt/config/framework.php:147
+#: admin/opt/config/framework.php:170
 msgid "Remove \"Posts adjacent Links\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:148
+#: admin/opt/config/framework.php:171
 msgid ""
 "It sets the link to the previous and next posts, i.e. rel="
 "\"prev\" tag."
 msgstr ""
 
-#: admin/opt/config/framework.php:153
+#: admin/opt/config/framework.php:176
 msgid "Remove \"REST API\" links"
 msgstr ""
 
-#: admin/opt/config/framework.php:154
+#: admin/opt/config/framework.php:177
 msgid ""
 "REST API is another way to communicate with the site "
 "remotely."
 msgstr ""
 
-#: admin/opt/config/framework.php:159
+#: admin/opt/config/framework.php:182
 msgid "Remove \"oEmbed\" links"
 msgstr ""
 
-#: admin/opt/config/framework.php:160
+#: admin/opt/config/framework.php:183
 msgid ""
 "oEmbed is an open format designed to allow embedding "
 "content from a website into another page."
 msgstr ""
 
-#: admin/opt/config/framework.php:165
+#: admin/opt/config/framework.php:188
 msgid "Remove \"Feed\" links"
 msgstr ""
 
-#: admin/opt/config/framework.php:166
+#: admin/opt/config/framework.php:189
 msgid "Remove the links to the RSS feeds of the blog."
 msgstr ""
 
-#: admin/opt/config/framework.php:171
+#: admin/opt/config/framework.php:194
 msgid "Remove support for emojis"
 msgstr ""
 
-#: admin/opt/config/framework.php:172
+#: admin/opt/config/framework.php:195
 msgid ""
 "Emojis are mostly known as smilies like embedded in text. "
 "WordPress by default adds additional script and style "
 "elements in its head to enable emojis library."
 msgstr ""
 
-#: admin/opt/config/framework.php:190
-msgid "Unload (Options)"
+#: admin/opt/config/framework.php:211
+msgid "Assets (Options)"
 msgstr ""
 
-#: admin/opt/config/framework.php:201
-msgid "Unload (Frontend)"
+#: admin/opt/config/framework.php:223
+msgid "Manage (Frontend)"
 msgstr ""
 
-#: admin/opt/config/framework.php:213
-msgid "Unload (Backend)"
+#: admin/opt/config/framework.php:236
+msgid "Manage (Backend)"
 msgstr ""
 
-#: admin/opt/config/framework.php:227
-msgid "Upgrade"
-msgstr ""
-
-#: admin/opt/config/framework.php:247
+#: admin/opt/config/framework.php:249
 msgid "Import/Export"
 msgstr ""
 
-#: admin/opt/config/framework.php:253
+#: admin/opt/config/framework.php:254
 msgid "Import or export the settings"
 msgstr ""
 
-#: admin/opt/config/framework.php:254
+#: admin/opt/config/framework.php:255
 msgid "Paste the exported string in the box:"
 msgstr ""
 
-#: admin/opt/config/metabox.php:32
+#: admin/opt/config/metabox.php:25
 msgid ""
 "No options available -> Page has to be visited at least "
 "once on the front side to collect the resources."
 msgstr ""
 
-#: admin/opt/config/metabox.php:33
+#: admin/opt/config/metabox.php:26
 msgid "Select some options here..."
 msgstr ""
 
-#: admin/opt/config/metabox.php:38
-msgid "Front end"
+#: admin/opt/config/metabox.php:30
+msgid "Front"
 msgstr ""
 
-#: admin/opt/config/metabox.php:45
+#: admin/opt/config/metabox.php:36
 msgid "Select style(s)"
 msgstr ""
 
-#: admin/opt/config/metabox.php:55
+#: admin/opt/config/metabox.php:46
 msgid "Select script(s)"
 msgstr ""
 
 #: admin/opt/config/metabox.php:93
-msgid "Back end"
+msgid "Back"
 msgstr ""
 
-#: admin/opt/config/metabox.php:125
+#: admin/opt/config/metabox.php:122
 msgid "Test mode"
 msgstr ""
 
-#: admin/opt/config/metabox.php:126
+#: admin/opt/config/metabox.php:123
 msgid ""
 "If enabled, applied rules will be rendered only to the "
 "logged in users who can manage options, i.e. you."
 msgstr ""
 
-#: admin/opt/config/metabox.php:131
-msgid "Switch the tabs to set all the options"
+#: admin/opt/config/metabox.php:128
+msgid ""
+"Switch the tabs to set all the options for Front end and "
+"Back end of the site."
 msgstr ""
 
-#: admin/opt/config/metabox.php:132
+#: admin/opt/config/metabox.php:129
 msgid ""
 "Frontend options are updated on the actual page load, i.e. "
 "page has to be visited for options to be updated."

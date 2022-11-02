@@ -12,7 +12,7 @@
  * @link     maxpressy.com
  *
  * Author URI:          https://maxpressy.com
- * Version:             1.0.0
+ * Version:             1.0.1
  * Text Domain:         booster_sweeper
  * Domain Path:         /languages
  * Requires at least:   5.8
