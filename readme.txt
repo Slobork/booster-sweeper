@@ -66,7 +66,7 @@ After activating the plugin, in your WordPress Dashboard find the section "Boost
 
 
 == Changelog ==
-= 1.0.1 - 2022-11-3 =
+= 1.0.1 - 2022-11-03 =
 * Fix: Dequeuing on archive if the post appears first
 * Update: translation strings
 
