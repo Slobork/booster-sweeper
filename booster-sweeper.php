@@ -11,6 +11,7 @@
  * @license  GPL v2 or later
  * @link     maxpressy.com
  *
+ * Author:              MaxPressy
  * Author URI:          https://maxpressy.com
  * Version:             1.0.1
  * Text Domain:         booster_sweeper
