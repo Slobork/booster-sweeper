@@ -25,7 +25,7 @@ if (! defined('ABSPATH')) {
             'menu_slug'       => 'booster-sweeper-settings',
             'menu_icon'       => 'dashicons-image-filter',
 
-            'footer_credit'   => 'Booster Sweeper <small> v1.0.1</small>',
+            'footer_credit'   => 'Booster Sweeper <small> v1.0.2</small>',
             'footer_text'     => ' ',
             'theme'           => 'light',
             'show_bar_menu'   => false,

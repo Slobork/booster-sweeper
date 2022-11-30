@@ -3,7 +3,7 @@
 Contributors: MaxPressy
 Tags: speed, performance, pagespeed, dequeue, seo, assets
 Tested up to: 6.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires at least: 6.0
 Requires PHP: 7.3.5
 License: GPLv2 or later
@@ -17,13 +17,13 @@ You see, with the most of the WordPress plugins or even themes, most of the asse
 
 The most obvious using scenario would be when you have a contact form only on a Contact page. Another example is when you have an e-commerce plugin, e.g. Woocommerce, which loads its files over the whole site, while you may esencially need those files just on product pages. In both these cases, with Booster Sweeper you can stop these assets to appear on the pages that it's not necessary to have them. Of course, you can imagine that you can do the same with other custom post types or plugins that are producing the same issue.
 
-== How Booster Sweeper can be beneficial ==
+== How Booster Sweeper can be of help? ==
 <ul>
  <li>Improve the site’s speed</li>
  <li>Further get better SEO foundation</li>
  <li>Bypass loosing customers due to the slow loading Website</li>
  <li>By reducing the pages size, save in CDN costs</li>
-<ul>
+</ul>
 
 == Booster Sweeper is simple to use ==
 On each page or post of your WordPress site, from the sidebar settings, you'll be able to notice a Booster Sweeper section. Here, our plugin is automatically detecting the assets that are loaded on the page. CSS and JS files are split in separate sections and when you select a file name, it will be prevented from loading on that page.
@@ -66,6 +66,10 @@ After activating the plugin, in your WordPress Dashboard find the section "Boost
 
 
 == Changelog ==
+= 1.0.2 - 2022-12-01 =
+* Update options fields framework
+* Update some option descriptions
+
 = 1.0.1 - 2022-11-03 =
 * Fix: Dequeuing on archive if the post appears first
 * Update: translation strings
