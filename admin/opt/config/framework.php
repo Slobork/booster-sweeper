@@ -25,7 +25,7 @@ if (! defined('ABSPATH')) {
             'menu_slug'       => 'booster-sweeper-settings',
             'menu_icon'       => 'dashicons-image-filter',
 
-            'footer_credit'   => 'Booster Sweeper <small> v1.0.1</small>',
+            'footer_credit'   => 'Booster Sweeper <small> v1.0.2</small>',
             'footer_text'     => ' ',
             'theme'           => 'light',
             'show_bar_menu'   => false,
@@ -174,7 +174,7 @@ if (! defined('ABSPATH')) {
                 ),
                 array(
                     'title'         => esc_html__('Remove "REST API" links', 'booster-sweeper'),
-                    'desc'          => esc_html__('REST API is another way to communicate with the site remotely.', 'booster-sweeper'),
+                    'desc'          => esc_html__('REST API is another way to communicate with the site remotely. Check this only if you\'re certain that your site isn\'t using and will not use in the future any API connection.', 'booster-sweeper'),
                     'id'            => 'html_links_rest_api',
                     'type'          => 'checkbox',
                 ),
