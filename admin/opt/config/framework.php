@@ -174,7 +174,7 @@ if (! defined('ABSPATH')) {
                 ),
                 array(
                     'title'         => esc_html__('Remove "REST API" links', 'booster-sweeper'),
-                    'desc'          => esc_html__('REST API is another way to communicate with the site remotely.', 'booster-sweeper'),
+                    'desc'          => esc_html__('REST API is another way to communicate with the site remotely. Check this only if you\'re certain that your site isn\'t using and will not use in the future any API connection.', 'booster-sweeper'),
                     'id'            => 'html_links_rest_api',
                     'type'          => 'checkbox',
                 ),
