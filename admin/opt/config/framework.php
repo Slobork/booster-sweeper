@@ -279,7 +279,7 @@ if (! defined('ABSPATH')) {
                 ),
                 array(
                     'type'      => 'submessage',
-                    'content'   => esc_html__('- Remove HTML tags from the page source. If your isn\'t requiring them.', 'booster-sweeper'),
+                    'content'   => esc_html__('- Remove HTML tags from the page source, if your site isn\'t requiring them.', 'booster-sweeper'),
                 ),
                 array(
                     'type'      => 'subheading',
