@@ -257,3 +257,65 @@ if (! defined('ABSPATH')) {
             )
         )
     );
+
+
+    /*
+     * Opt - Docs.
+     */
+    CSF::createSection(
+        $prefix, array(
+            'title'  => esc_html__('Documentation', 'booster-sweeper'),
+            'icon'   => 'fas fa-book',
+            'fields' => array(
+                array(
+                    'type'      => 'subheading',
+                    'content'   => esc_html__('Each section gives you specific options:', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'subheading',
+                    'content'   => esc_html__('General', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'submessage',
+                    'content'   => esc_html__('- Remove HTML tags from the page source. If your isn\'t requiring them.', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'subheading',
+                    'content'   => esc_html__('Assets (Options)', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'submessage',
+                    'content'   => esc_html__('- These are the options related to the assets of the site. Enable assets discovery tool and similar options.', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'subheading',
+                    'content'   => esc_html__('Manage (Frontend)', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'submessage',
+                    'content'   => esc_html__('- Dequeue the assets for the front-side of the site.', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'subheading',
+                    'content'   => esc_html__('Manage (Backend)', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'submessage',
+                    'content'   => esc_html__('- Dequeue the assets for the back-side of the site. Improve the loading of the Website\'s backend, i.e. for administrators and editors. Further, even more important for the membership sites when users have access to specific admin pages.', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'subheading',
+                    'content'   => esc_html__('Import/Export', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'submessage',
+                    'content'   => esc_html__('- Easily move the common settings from one to another Website.', 'booster-sweeper'),
+                ),
+                array(
+                    'type'      => 'notice',
+                    'style'     => 'info',
+                    'content'   => esc_html__('See ', 'booster-sweeper') .'<a href="https://maxpressy.com/booster-sweeper/documentation/" target="_blank">' .__('the whole documentation', 'booster-sweeper') .'</a>' .esc_html__(' for illustrated details. ', 'booster-sweeper'),
+                ),
+            )
+        )
+    );
