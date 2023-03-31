@@ -2,7 +2,7 @@
 
 Contributors: MaxPressy
 Tags: speed, performance, pagespeed, dequeue, seo, assets
-Tested up to: 6.1
+Tested up to: 6.2
 Stable tag: 1.0.3
 Requires at least: 6.0
 Requires PHP: 7.3.5
