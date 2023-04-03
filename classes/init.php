@@ -39,7 +39,7 @@ if (! class_exists('Booster_Sweeper') ) {
         /**
          * Load plugin's textdomain.
          * 
-         * @return null Hooking a load_plugin_textdomain().
+         * @return void Hooking a load_plugin_textdomain().
          */
         public static function textdomain()
         {
