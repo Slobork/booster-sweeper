@@ -13,7 +13,8 @@ if (! defined('ABSPATH')) {
      * Set a unique slug-like ID.
      */
     $prefix = '_booster_sweeper_options';
-
+    $BS_pro_version = defined('BOOSTER_SWEEPER_PRO_VERSION') ? BOOSTER_SWEEPER_PRO_VERSION : '';
+    $print_pro_version = $BS_pro_version !== '' ? ' - Pro Version: ' .BOOSTER_SWEEPER_PRO_VERSION : '';
 
     CSF::createOptions(
         $prefix, array(
@@ -25,7 +26,7 @@ if (! defined('ABSPATH')) {
             'menu_slug'       => 'booster-sweeper-settings',
             'menu_icon'       => 'dashicons-image-filter',
 
-            'footer_credit'   => 'Booster Sweeper <small> v1.0.4</small>',
+            'footer_credit'   => 'Booster Sweeper <small> ' .BOOSTER_SWEEPER_VERSION .$print_pro_version .'</small>',
             'footer_text'     => ' ',
             'theme'           => 'light',
             'show_bar_menu'   => false,
