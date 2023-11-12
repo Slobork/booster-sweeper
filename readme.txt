@@ -66,7 +66,7 @@ After activating the plugin, in your WordPress Dashboard find the section "Boost
 
 
 == Changelog ==
-= 1.0.5 - 2022-11-13 =
+= 1.0.5 - 2023-11-13 =
 * Change the way the plugin version is retrieved and printed
 
 = 1.0.4 - 2022-08-13 =
