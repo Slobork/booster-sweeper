@@ -21,22 +21,6 @@ if (! class_exists('Booster_Sweeper') ) {
     {
 
         /**
-         * Version.
-         *
-         * Also has to be updated in the framework settings' createOptions,
-         *
-         * @see /admin/opt/config/framework.php
-         */
-        // phpcs:ignore
-        public static function version()
-        {
-
-            $plugin_version = '1.0.4';
-            return $plugin_version;
-
-        }
-
-        /**
          * Load plugin's textdomain.
          * 
          * @return void Hooking a load_plugin_textdomain().

@@ -42,15 +42,13 @@ if (! function_exists('booster_sweeper_admin_scripts') ) {
     // phpcs:ignore
     function booster_sweeper_admin_scripts()
     {
-
-        $plugin_version = Booster_Sweeper::version();
         $current_screen = get_current_screen()->base;
 
         // Load only on Booster Sweeper settings page.
         if ($current_screen === 'toplevel_page_booster-sweeper-settings') {
 
-            wp_enqueue_style('booster-sweeper-adminizr', plugin_dir_url(__DIR__) .'library/admin/adminizr.css', array(), $plugin_version);
-            wp_enqueue_script('booster-sweeper-adminizr', plugin_dir_url(__DIR__) .'library/admin/adminizr.js', array( 'jquery' ), $plugin_version, true);
+            wp_enqueue_style('booster-sweeper-adminizr', plugin_dir_url(__DIR__) .'library/admin/adminizr.css', array(), BOOSTER_SWEEPER_VERSION);
+            wp_enqueue_script('booster-sweeper-adminizr', plugin_dir_url(__DIR__) .'library/admin/adminizr.js', array( 'jquery' ), BOOSTER_SWEEPER_VERSION, true);
 
             // add local vars for translation, accesed through the JS
             $local_var_array  = array(
