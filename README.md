@@ -35,7 +35,7 @@ To see all the options and how you can use them, visit [offical Booster Sweeper 
 ## Support
 Support can be obtained through a couple of channels depening on the usage of the plugin.
 1. For the Free version, we provide the support over the WordPress forum. Visit [Booster Sweeper on WordPress.org](https://wordpress.org/support/plugin/booster-sweeper)
-2. If you think you can constructively contribute, start an issue [here on GitHub](/issues)
+2. If you think you can constructively contribute, start an issue [here on GitHub](https://github.com/Slobork/booster-sweeper/issues)
 3. More support options are available [from our website](https://maxpressy.com/booster-sweeper/asset-cleanup-wordpress-plugin-manager/#section-support)
 
 ## License
