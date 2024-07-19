@@ -1,8 +1,8 @@
 === Booster Sweeper: WordPress Asset Cleanup ===
 
 Contributors: MaxPressy
-Tags: speed, performance, pagespeed, dequeue, seo, assets
-Tested up to: 6.4
+Tags: speed, performance, pagespeed, dequeue, assets
+Tested up to: 6.6
 Stable tag: 1.0.5
 Requires at least: 6.0
 Requires PHP: 7.3.5
