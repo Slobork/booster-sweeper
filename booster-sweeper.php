@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:         Booster Sweeper
- * Description:         Boost the speed by sweeping assets your pages do not need
+ * Description:         Boost the Website speed by sweeping assets your pages do not need!
  *
  * PHP version  7.3.5
  *
