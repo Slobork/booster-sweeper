@@ -13,7 +13,7 @@
  *
  * Author:              MaxPressy
  * Author URI:          https://maxpressy.com
- * Version:             1.0.5
+ * Version:             1.0.6
  * Text Domain:         booster_sweeper
  * Domain Path:         /languages
  * Requires at least:   6.0

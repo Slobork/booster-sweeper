@@ -3,7 +3,7 @@
 Contributors: MaxPressy
 Tags: speed, performance, pagespeed, dequeue, assets
 Tested up to: 6.7
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 Requires at least: 6.0
 Requires PHP: 7.3.5
 License: GPLv2 or later
@@ -67,6 +67,9 @@ After activating the plugin, in your WordPress Dashboard find the section "Boost
 
 
 == Changelog ==
+= 1.0.6 - 2024-11-29 =
+* Fix: Text domain loading, due to the missing parameters on the get_plugin_data
+
 = 1.0.5 - 2023-11-13 =
 * Change the way the plugin version is retrieved and printed
 
