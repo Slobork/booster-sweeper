@@ -1,14 +1,15 @@
 === Booster Sweeper: WordPress Asset Cleanup ===
 
 Contributors: MaxPressy
-Tags: speed, performance, pagespeed, dequeue, seo, assets
-Tested up to: 6.4
-Stable tag: 1.0.5
+Tags: speed, performance, pagespeed, dequeue, assets
+Tested up to: 6.7
+Stable tag: 1.0.6
 Requires at least: 6.0
 Requires PHP: 7.3.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
+Boost the Website speed by sweeping assets your pages do not need!
 
 == Description ==
 Booster Sweeper helps you to optimize the Website speed further over the common caching and code minification plugins. <a href="https://maxpressy.com/booster-sweeper/asset-cleanup-wordpress-plugin-manager/?mtm_campaign=wpPluginPage&mtm_kwd=boostersweeper&mtm_placement=top" target="_blank">Booster Sweeper</a> allows you to dequeue assets, i.e. unload the unused CSS or JavaScript files. These are the files that aren't necessary for certain page.
@@ -66,6 +67,9 @@ After activating the plugin, in your WordPress Dashboard find the section "Boost
 
 
 == Changelog ==
+= 1.0.6 - 2024-11-29 =
+* Fix: Text domain loading, due to the missing parameters on the get_plugin_data
+
 = 1.0.5 - 2023-11-13 =
 * Change the way the plugin version is retrieved and printed
 
