@@ -3,9 +3,9 @@
 Contributors: MaxPressy
 Tags: speed, performance, pagespeed, dequeue, assets
 Tested up to: 6.7
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 Requires at least: 6.0
-Requires PHP: 7.3.5
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,10 @@ After activating the plugin, in your WordPress Dashboard find the section "Boost
 
 
 == Changelog ==
+= 1.0.7 - 2024-12-11 =
+* Update the Fields framework (Fixed the PHP depricated notice in the newer PHP versions)
+* Update the maintaining PHP version. It's 7.4 now, we're not able to monitor 7.3 anymore
+
 = 1.0.6 - 2024-11-29 =
 * Fix: Text domain loading, due to the missing parameters on the get_plugin_data
 

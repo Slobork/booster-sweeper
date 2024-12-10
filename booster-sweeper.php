@@ -3,7 +3,7 @@
  * Plugin Name:         Booster Sweeper
  * Description:         Boost the Website speed by sweeping assets your pages do not need!
  *
- * PHP version  7.3.5
+ * PHP version  7.4
  *
  * @category Optimization
  * @package  Booster_Sweeper
@@ -13,7 +13,7 @@
  *
  * Author:              MaxPressy
  * Author URI:          https://maxpressy.com
- * Version:             1.0.6
+ * Version:             1.0.7
  * Text Domain:         booster_sweeper
  * Domain Path:         /languages
  * Requires at least:   6.0
