@@ -324,6 +324,14 @@ if (! function_exists('booster_sweeper_framework_settings')) {
                         'content'   => esc_html__('- Easily move the common settings from one to another Website.', 'booster-sweeper'),
                     ),
                     array(
+                        'type'      => 'subheading',
+                        'content'   => esc_html__('Per post/page management', 'booster-sweeper'),
+                    ),
+                    array(
+                        'type'      => 'submessage',
+                        'content'   => esc_html__('- With Free version you can offload the assets from the Booster sweeper metabox. While editing a page, locate the page settings and find the Booster Sweeper metabox.', 'booster-sweeper'),
+                    ),
+                    array(
                         'type'      => 'notice',
                         'style'     => 'info',
                         'content'   => esc_html__('See ', 'booster-sweeper') .'<a href="https://maxpressy.com/booster-sweeper/documentation/" target="_blank">' .__('the whole documentation', 'booster-sweeper') .'</a>' .esc_html__(' for illustrated details. ', 'booster-sweeper'),
