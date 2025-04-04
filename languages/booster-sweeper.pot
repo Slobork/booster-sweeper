@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Booster Sweeper 1.0\n"
 "Report-Msgid-Bugs-To: https://foxnet-themes.fi/contact/\n"
-"POT-Creation-Date: 2022-11-02 13:29+0100\n"
+"POT-Creation-Date: 2025-04-04 15:30+0200\n"
 "PO-Revision-Date: 2017-05-26 21:49+0200\n"
 "Last-Translator: Sloba <sloooba@yahoo.com>\n"
 "Language-Team: maxPressy\n"
@@ -13,8 +13,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;esc_html_e;__ngettext:1,2;_n:1,2;"
@@ -25,130 +25,130 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: node_modules\n"
 "X-Poedit-SearchPathExcluded-1: library\n"
 
-#: admin/codestar-framework/classes/admin-options.class.php:230
+#: admin/codestar-framework/classes/admin-options.class.php:169
 msgid "Error while saving the changes."
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:290
+#: admin/codestar-framework/classes/admin-options.class.php:229
 msgid "Settings successfully imported."
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:302
-#: admin/codestar-framework/classes/admin-options.class.php:318
+#: admin/codestar-framework/classes/admin-options.class.php:241
+#: admin/codestar-framework/classes/admin-options.class.php:257
 msgid "Default settings restored."
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:389
+#: admin/codestar-framework/classes/admin-options.class.php:328
 msgid "Settings saved."
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:570
+#: admin/codestar-framework/classes/admin-options.class.php:509
 msgid "You have unsaved changes, save your changes!"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:572
+#: admin/codestar-framework/classes/admin-options.class.php:511
 msgid "show all settings"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:574
+#: admin/codestar-framework/classes/admin-options.class.php:513
 #: admin/codestar-framework/fields/icon/icon.php:57
 #: admin/codestar-framework/fields/map/map.php:23
 msgid "Search..."
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:577
-#: admin/codestar-framework/classes/admin-options.class.php:700
+#: admin/codestar-framework/classes/admin-options.class.php:516
+#: admin/codestar-framework/classes/admin-options.class.php:639
 msgid "Save"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:577
-#: admin/codestar-framework/classes/admin-options.class.php:700
+#: admin/codestar-framework/classes/admin-options.class.php:516
+#: admin/codestar-framework/classes/admin-options.class.php:639
 msgid "Saving..."
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:578
-#: admin/codestar-framework/classes/admin-options.class.php:701
+#: admin/codestar-framework/classes/admin-options.class.php:517
+#: admin/codestar-framework/classes/admin-options.class.php:640
 msgid "Reset Section"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:578
-#: admin/codestar-framework/classes/admin-options.class.php:701
+#: admin/codestar-framework/classes/admin-options.class.php:517
+#: admin/codestar-framework/classes/admin-options.class.php:640
 msgid "Are you sure to reset this section options?"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:579
-#: admin/codestar-framework/classes/admin-options.class.php:702
+#: admin/codestar-framework/classes/admin-options.class.php:518
+#: admin/codestar-framework/classes/admin-options.class.php:641
 msgid "Reset All"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:579
-#: admin/codestar-framework/classes/admin-options.class.php:702
-#: admin/codestar-framework/classes/comment-options.class.php:216
-#: admin/codestar-framework/classes/metabox-options.class.php:294
+#: admin/codestar-framework/classes/admin-options.class.php:518
+#: admin/codestar-framework/classes/admin-options.class.php:641
+#: admin/codestar-framework/classes/comment-options.class.php:201
+#: admin/codestar-framework/classes/metabox-options.class.php:278
 #: admin/codestar-framework/fields/backup/backup.php:31
 msgid "Reset"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:579
-#: admin/codestar-framework/classes/admin-options.class.php:702
+#: admin/codestar-framework/classes/admin-options.class.php:518
+#: admin/codestar-framework/classes/admin-options.class.php:641
 msgid ""
 "Are you sure you want to reset all settings to default "
 "values?"
 msgstr ""
 
-#: admin/codestar-framework/classes/admin-options.class.php:677
-#: admin/codestar-framework/classes/comment-options.class.php:199
-#: admin/codestar-framework/classes/metabox-options.class.php:277
+#: admin/codestar-framework/classes/admin-options.class.php:616
+#: admin/codestar-framework/classes/comment-options.class.php:184
+#: admin/codestar-framework/classes/metabox-options.class.php:261
 #: admin/codestar-framework/fields/button_set/button_set.php:56
-#: admin/codestar-framework/fields/checkbox/checkbox.php:76
+#: admin/codestar-framework/fields/checkbox/checkbox.php:82
 #: admin/codestar-framework/fields/radio/radio.php:75
 #: admin/codestar-framework/fields/select/select.php:113
 #: admin/codestar-framework/functions/actions.php:41
 msgid "No data available."
 msgstr ""
 
-#: admin/codestar-framework/classes/comment-options.class.php:217
-#: admin/codestar-framework/classes/metabox-options.class.php:295
+#: admin/codestar-framework/classes/comment-options.class.php:202
+#: admin/codestar-framework/classes/metabox-options.class.php:279
 msgid "update post"
 msgstr ""
 
-#: admin/codestar-framework/classes/comment-options.class.php:217
-#: admin/codestar-framework/classes/metabox-options.class.php:295
+#: admin/codestar-framework/classes/comment-options.class.php:202
+#: admin/codestar-framework/classes/metabox-options.class.php:279
 msgid "Cancel"
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:602
+#: admin/codestar-framework/classes/setup.class.php:606
 msgid "Are you sure?"
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:603
+#: admin/codestar-framework/classes/setup.class.php:607
 #, php-format
 msgid "Please enter %s or more characters"
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:604
+#: admin/codestar-framework/classes/setup.class.php:608
 msgid "Searching..."
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:605
+#: admin/codestar-framework/classes/setup.class.php:609
 msgid "No results found."
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:706
+#: admin/codestar-framework/classes/setup.class.php:710
 msgid "Oops! Not allowed."
 msgstr ""
 
-#: admin/codestar-framework/classes/setup.class.php:774
 #: admin/codestar-framework/classes/setup.class.php:778
+#: admin/codestar-framework/classes/setup.class.php:782
 msgid "Field not found!"
 msgstr ""
 
-#: admin/codestar-framework/classes/shortcode-options.class.php:255
+#: admin/codestar-framework/classes/shortcode-options.class.php:210
 #: admin/codestar-framework/fields/group/group.php:23
 msgid "Add New"
 msgstr ""
 
-#: admin/codestar-framework/classes/shortcode-options.class.php:292
+#: admin/codestar-framework/classes/shortcode-options.class.php:247
 #: admin/codestar-framework/functions/actions.php:16
 #: admin/codestar-framework/functions/actions.php:68
 #: admin/codestar-framework/functions/actions.php:106
@@ -428,6 +428,10 @@ msgstr ""
 #: admin/codestar-framework/fields/typography/typography.php:199
 #: admin/codestar-framework/fields/typography/typography.php:213
 msgid "None"
+msgstr ""
+
+#: admin/codestar-framework/fields/checkbox/checkbox.php:23
+msgid "Check/Uncheck All"
 msgstr ""
 
 #: admin/codestar-framework/fields/dimensions/dimensions.php:22
@@ -725,7 +729,9 @@ msgid "Please enter a valid URL."
 msgstr ""
 
 #: admin/opt/config/callbacks.php:65
-msgid "Upgrade to "
+msgid ""
+"You can manage assets per post/page (Booster Sweeper "
+"metabox on each page). Upgrade to "
 msgstr ""
 
 #: admin/opt/config/callbacks.php:65
@@ -736,183 +742,252 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: admin/opt/config/framework.php:63
+#: admin/opt/config/framework.php:73
 msgid "Other"
 msgstr ""
 
-#: admin/opt/config/framework.php:69
+#: admin/opt/config/framework.php:79
 msgid "Uninstall settings if plugin is deleted"
 msgstr ""
 
-#: admin/opt/config/framework.php:70
+#: admin/opt/config/framework.php:80
 msgid ""
 "If this is checked, all Booster Sweeper seetings will be "
 "deleted when the plugin is removed, otherwise the settings "
 "will be preserved."
 msgstr ""
 
-#: admin/opt/config/framework.php:138
+#: admin/opt/config/framework.php:148
+#: admin/opt/config/framework.php:288
 msgid "General"
 msgstr ""
 
-#: admin/opt/config/framework.php:143
+#: admin/opt/config/framework.php:153
 msgid "Clean HTML tags from the <head>"
 msgstr ""
 
-#: admin/opt/config/framework.php:146
+#: admin/opt/config/framework.php:156
 msgid "Remove \"version generator\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:147
+#: admin/opt/config/framework.php:157
 msgid ""
 "It removes the meta tag stating the version of WordPress "
 "your site is using"
 msgstr ""
 
-#: admin/opt/config/framework.php:152
+#: admin/opt/config/framework.php:162
 msgid "Remove \"RSD\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:153
+#: admin/opt/config/framework.php:163
 msgid ""
 "Really Simple Discovery (RSD) is an XML format that "
 "enables other software to communicate to the blog."
 msgstr ""
 
-#: admin/opt/config/framework.php:158
+#: admin/opt/config/framework.php:168
 msgid "Remove \"WLW\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:159
+#: admin/opt/config/framework.php:169
 msgid ""
 "Windows Live Writer is the desktop application that can be "
 "remotely connected to your blog."
 msgstr ""
 
-#: admin/opt/config/framework.php:164
+#: admin/opt/config/framework.php:174
 msgid "Remove \"shortlink\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:165
+#: admin/opt/config/framework.php:175
 msgid "This tag marks the short link of the post/page"
 msgstr ""
 
-#: admin/opt/config/framework.php:170
+#: admin/opt/config/framework.php:180
 msgid "Remove \"Posts adjacent Links\" tag"
 msgstr ""
 
-#: admin/opt/config/framework.php:171
+#: admin/opt/config/framework.php:181
 msgid ""
 "It sets the link to the previous and next posts, i.e. rel="
 "\"prev\" tag."
 msgstr ""
 
-#: admin/opt/config/framework.php:176
+#: admin/opt/config/framework.php:186
 msgid "Remove \"REST API\" links"
 msgstr ""
 
-#: admin/opt/config/framework.php:177
+#: admin/opt/config/framework.php:187
 msgid ""
 "REST API is another way to communicate with the site "
-"remotely."
+"remotely. Check this only if you're certain that your site "
+"isn't using and will not use in the future any API "
+"connection."
 msgstr ""
 
-#: admin/opt/config/framework.php:182
+#: admin/opt/config/framework.php:192
 msgid "Remove \"oEmbed\" links"
 msgstr ""
 
-#: admin/opt/config/framework.php:183
+#: admin/opt/config/framework.php:193
 msgid ""
 "oEmbed is an open format designed to allow embedding "
 "content from a website into another page."
 msgstr ""
 
-#: admin/opt/config/framework.php:188
+#: admin/opt/config/framework.php:198
 msgid "Remove \"Feed\" links"
 msgstr ""
 
-#: admin/opt/config/framework.php:189
+#: admin/opt/config/framework.php:199
 msgid "Remove the links to the RSS feeds of the blog."
 msgstr ""
 
-#: admin/opt/config/framework.php:194
+#: admin/opt/config/framework.php:204
 msgid "Remove support for emojis"
 msgstr ""
 
-#: admin/opt/config/framework.php:195
+#: admin/opt/config/framework.php:205
 msgid ""
 "Emojis are mostly known as smilies like embedded in text. "
 "WordPress by default adds additional script and style "
 "elements in its head to enable emojis library."
 msgstr ""
 
-#: admin/opt/config/framework.php:211
+#: admin/opt/config/framework.php:221
+#: admin/opt/config/framework.php:296
 msgid "Assets (Options)"
 msgstr ""
 
-#: admin/opt/config/framework.php:223
+#: admin/opt/config/framework.php:233
+#: admin/opt/config/framework.php:304
 msgid "Manage (Frontend)"
 msgstr ""
 
-#: admin/opt/config/framework.php:236
+#: admin/opt/config/framework.php:246
+#: admin/opt/config/framework.php:312
 msgid "Manage (Backend)"
 msgstr ""
 
-#: admin/opt/config/framework.php:249
+#: admin/opt/config/framework.php:259
+#: admin/opt/config/framework.php:320
 msgid "Import/Export"
 msgstr ""
 
-#: admin/opt/config/framework.php:254
+#: admin/opt/config/framework.php:264
 msgid "Import or export the settings"
 msgstr ""
 
-#: admin/opt/config/framework.php:255
+#: admin/opt/config/framework.php:265
 msgid "Paste the exported string in the box:"
 msgstr ""
 
-#: admin/opt/config/metabox.php:25
+#: admin/opt/config/framework.php:279
+msgid "Documentation"
+msgstr ""
+
+#: admin/opt/config/framework.php:284
+msgid "Each section gives you specific options:"
+msgstr ""
+
+#: admin/opt/config/framework.php:292
+msgid ""
+"- Remove HTML tags from the page source, if your site "
+"isn't requiring them."
+msgstr ""
+
+#: admin/opt/config/framework.php:300
+msgid ""
+"- These are the options related to the assets of the site. "
+"Enable assets discovery tool and similar options."
+msgstr ""
+
+#: admin/opt/config/framework.php:308
+msgid "- Dequeue the assets for the front-side of the site."
+msgstr ""
+
+#: admin/opt/config/framework.php:316
+msgid ""
+"- Dequeue the assets for the back-side of the site. "
+"Improve the loading of the Website's backend, i.e. for "
+"administrators and editors. Further, even more important "
+"for the membership sites when users have access to "
+"specific admin pages."
+msgstr ""
+
+#: admin/opt/config/framework.php:324
+msgid ""
+"- Easily move the common settings from one to another "
+"Website."
+msgstr ""
+
+#: admin/opt/config/framework.php:328
+msgid "Per post/page management"
+msgstr ""
+
+#: admin/opt/config/framework.php:332
+msgid ""
+"- With Free version you can offload the assets from the "
+"Booster sweeper metabox. While editing a page, locate the "
+"page settings and find the Booster Sweeper metabox."
+msgstr ""
+
+#: admin/opt/config/framework.php:337
+msgid "See "
+msgstr ""
+
+#: admin/opt/config/framework.php:337
+msgid "the whole documentation"
+msgstr ""
+
+#: admin/opt/config/framework.php:337
+msgid " for illustrated details. "
+msgstr ""
+
+#: admin/opt/config/metabox.php:35
 msgid ""
 "No options available -> Page has to be visited at least "
 "once on the front side to collect the resources."
 msgstr ""
 
-#: admin/opt/config/metabox.php:26
+#: admin/opt/config/metabox.php:36
 msgid "Select some options here..."
 msgstr ""
 
-#: admin/opt/config/metabox.php:30
+#: admin/opt/config/metabox.php:40
 msgid "Front"
 msgstr ""
 
-#: admin/opt/config/metabox.php:36
+#: admin/opt/config/metabox.php:46
 msgid "Select style(s)"
 msgstr ""
 
-#: admin/opt/config/metabox.php:46
+#: admin/opt/config/metabox.php:56
 msgid "Select script(s)"
 msgstr ""
 
-#: admin/opt/config/metabox.php:93
+#: admin/opt/config/metabox.php:103
 msgid "Back"
 msgstr ""
 
-#: admin/opt/config/metabox.php:122
+#: admin/opt/config/metabox.php:132
 msgid "Test mode"
 msgstr ""
 
-#: admin/opt/config/metabox.php:123
+#: admin/opt/config/metabox.php:133
 msgid ""
 "If enabled, applied rules will be rendered only to the "
 "logged in users who can manage options, i.e. you."
 msgstr ""
 
-#: admin/opt/config/metabox.php:128
+#: admin/opt/config/metabox.php:138
 msgid ""
 "Switch the tabs to set all the options for Front end and "
 "Back end of the site."
 msgstr ""
 
-#: admin/opt/config/metabox.php:129
+#: admin/opt/config/metabox.php:139
 msgid ""
 "Frontend options are updated on the actual page load, i.e. "
 "page has to be visited for options to be updated."
