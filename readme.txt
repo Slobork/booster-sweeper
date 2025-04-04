@@ -2,9 +2,9 @@
 
 Contributors: MaxPressy
 Tags: speed, performance, pagespeed, dequeue, assets
-Tested up to: 6.7
-Stable tag: 1.0.7
-Requires at least: 6.0
+Tested up to: 6.8
+Stable tag: 1.0.8
+Requires at least: 6.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,9 @@ After activating the plugin, in your WordPress Dashboard find the section "Boost
 
 
 == Changelog ==
+= 1.0.8 - 2025-04-05 =
+* Fix: With upcoming WP 6.8 Notice: Function _load_textdomain_just_in_time was called incorrectly
+
 = 1.0.7 - 2024-12-11 =
 * Update the Fields framework (Fixed the PHP depricated notice in the newer PHP versions)
 * Update the maintaining PHP version. It's 7.4 now, we're not able to monitor 7.3 anymore
