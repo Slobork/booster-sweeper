@@ -13,10 +13,10 @@
  *
  * Author:              MaxPressy
  * Author URI:          https://maxpressy.com
- * Version:             1.0.7
+ * Version:             1.0.8
  * Text Domain:         booster_sweeper
  * Domain Path:         /languages
- * Requires at least:   6.0
+ * Requires at least:   6.7
  */
 
 if (! defined('ABSPATH')) {
