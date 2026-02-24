@@ -67,7 +67,7 @@ jQuery(document).ready(function($) {
 	$(".bs-valid-numbers-space").bs_validate_numbers_space();
 
 	/**
-	 * Reset the individual Post's metabox of the Booster Sweeper (the function is in the Pro version: reset.php file).
+	 * Reset the individual Post's metabox of the Booster Sweeper (the function is in the Pro version).
 	 */
 	var reset_post_id	=	$('.bs-reset-post-id');
 	reset_post_id.on('click', '.csf-after-text', function() {
