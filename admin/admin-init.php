@@ -65,3 +65,32 @@ if (! function_exists('booster_sweeper_admin_scripts') ) {
     add_action('admin_enqueue_scripts', 'booster_sweeper_admin_scripts');
 
 }
+
+
+if (! function_exists('booster_sweeper_activation_redirect') ) {
+
+    /**
+     * Redirect to plugin settings page on activation.
+     */
+    function booster_sweeper_activation_redirect()
+    {
+        set_transient('booster_sweeper_redirect_to_settings', true, 30);
+    }
+
+    /**
+     * Handle the activation redirect.
+     */
+    function booster_sweeper_handle_activation_redirect()
+    {
+        if (get_transient('booster_sweeper_redirect_to_settings')) {
+            delete_transient('booster_sweeper_redirect_to_settings');
+            wp_safe_remote_post(admin_url('admin.php?page=booster-sweeper-settings'));
+            wp_redirect(admin_url('admin.php?page=booster-sweeper-settings'));
+            exit;
+        }
+    }
+
+    register_activation_hook(dirname(dirname(__FILE__)) . '/booster-sweeper.php', 'booster_sweeper_activation_redirect');
+    add_action('admin_init', 'booster_sweeper_handle_activation_redirect');
+
+}
