@@ -28,9 +28,14 @@ if (! function_exists('get_plugin_data')) {
     include_once ABSPATH .'wp-admin/includes/plugin.php';
 }
 $plugin_data = get_plugin_data(__FILE__, true, false);
+
+// Define constants for plugin name and version.
 define('BOOSTER_SWEEPER', ($plugin_data && $plugin_data['Name']) ? $plugin_data['Name'] : 'Booster Sweeper');
 define('BOOSTER_SWEEPER_VERSION', ($plugin_data && $plugin_data['Version']) ? $plugin_data['Version'] : '1.0.0');
 
+/**
+ * Include other PHP files with functions and features of the plugin.
+ */
 require_once 'classes/init.php';
 require_once 'classes/resources.php';
 require_once 'clean-html.php';
